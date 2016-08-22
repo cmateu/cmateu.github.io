@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20160805" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Introducción a los Métodos Numéricos</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="MetNum_files/MetNum.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='MetNum_files/MetNumIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="MetNum_files/MetNum.js"></script>
+  </head>
+  <body style="background: rgb(247, 246, 246); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(247, 246, 246); text-align: left; width: 700px; " id="body_content">
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 0px; margin-top: 24px; opacity: 1.00; position: relative; width: 700px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .85em;\n\tcolor: #999;\n\tmargin: 0px;\n\tline-height: 20px;\n\tfont-weight: bold;\n}\n\n.navbar-bg {\n\ttext-align: left;\n\tpadding: 0px;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 15px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:hover\n{\n \tcolor: #F00;\n\ttext-decoration: none;\n}\n\n\nli.current-page a\n{\n\t color: #666;\n\ttext-decoration: none;\n\n}", "current-page-GUID": "BD933AC8-0B62-4B8B-AA88-6E0BC0A98FB5", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 120px; width: 700px;  height: 120px; left: 0px; position: absolute; top: 0px; width: 700px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 700px; ">
+              <img src="MetNum_files/shapeimage_1.png" alt="" style="height: 120px; left: 0px; position: absolute; top: 0px; width: 700px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id1" style="height: 41px; left: 40px; position: absolute; top: 78px; width: 620px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content graphic_shape_layout_style_default_External_620_41" style="padding: 0px; ">
+              <div class="graphic_shape_layout_style_default"></div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 125px; width: 730px;  height: 125px; left: 0px; position: absolute; top: -3px; width: 730px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 730px; ">
+              <img src="MetNum_files/shapeimage_2.png" alt="" style="height: 125px; left: 0px; position: absolute; top: 0px; width: 730px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id2" style="height: 41px; left: 15px; position: absolute; top: 78px; width: 620px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content graphic_shape_layout_style_default_External_620_41" style="padding: 0px; ">
+              <div class="graphic_shape_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Title">Introducción a los Métodos Numéricos</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id3" style="height: 1917px; left: 0px; position: absolute; top: 176px; width: 756px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_756_1917" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style">Curso de Introducción a los Métodos Numéricos en Astronomía<br /></p>
+                <p class="paragraph_style">(ÚLTIMA ACTUALIZACIÓN:<span class="style"> </span><span class="style">August 5, 2016 11:53 AM</span><span class="style">)</span><br /></p>
+                <p class="paragraph_style"><br /></p>
+                <ol>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 14px; " class="Bullet">•</span>  <span class="style_1">Horario:</span><span style="line-height: 18px; " class="style_2"><br /></span></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_2"><span style="line-height: 15px; " class="style_2">    Lunes   2-4pm (clase teórica) <br /></span></p>
+                <p class="paragraph_style_2"><span style="line-height: 15px; " class="style_2">    Viernes 2-5pm (clase práctica)<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 7px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_3.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_3">TAREA 6:</span><span style="line-height: 22px; " class="style_4"> </span><a title="MetNum_files/Tarea6_Bayes.pdf" href="MetNum_files/Tarea6_Bayes.pdf" style="line-height: 22px; " class="style_4">Tarea6_Bayes.pdf</a><span class="style_1">, </span><a title="MetNum_files/datos_rc1.dat" href="MetNum_files/datos_rc1.dat" class="style_1">datos_rc1.dat</a><span class="style_1"> </span><span style="line-height: 22px; " class="style_5">(para entregar el martes 26/03/2013).</span><span class="style_6"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 7px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_4.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_7">RECUPERACIÓN TAREA 5:</span><span style="line-height: 22px; " class="style_3"> </span><a title="MetNum_files/Tarea5_MonteCarlo2.pdf" href="MetNum_files/Tarea5_MonteCarlo2.pdf" style="line-height: 22px; " class="style_8">Tarea5_MonteCarlo2.pdf</a><span style="line-height: 22px; " class="style_7"> </span><span style="line-height: 22px; " class="style_9">(para entregar el martes 26/02/2013).</span><span style="line-height: 22px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_7">TAREA 5</span><span style="line-height: 22px; " class="style_4">: </span><a title="MetNum_files/Tarea5_MonteCarlo.pdf" href="MetNum_files/Tarea5_MonteCarlo.pdf" style="line-height: 22px; " class="style_4">Tarea5_MonteCarlo.pdf</a><span style="line-height: 22px; " class="style_10"> </span><span style="line-height: 22px; " class="style_11">(para entregar el miércoles 06/02/2013).</span><span class="style_12"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 7px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_5.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_7">TAREA 4</span><span style="line-height: 22px; " class="style_4">: </span><a title="MetNum_files/Tarea_ODEs.pdf" href="MetNum_files/Tarea_ODEs.pdf" style="line-height: 22px; " class="style_4">Tarea_ODEs.pdf</a><span style="line-height: 22px; " class="style_10"> </span><span style="line-height: 22px; " class="style_9">(para entregar el viernes 25/01/2013).</span><span class="style_1"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 7px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_6.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_7">TAREA 3</span><span style="line-height: 22px; " class="style_4">: </span><a title="MetNum_files/Tarea_Integracion.pdf" href="MetNum_files/Tarea_Integracion.pdf" style="line-height: 22px; " class="style_4">Tarea_Integracion.pdf</a><span style="line-height: 22px; " class="style_10"> </span><span style="line-height: 22px; " class="style_13">(para entregar el jueves 20/12/2012).</span><span style="line-height: 22px; " class="style_14"><br /></span></p>
+                <p class="paragraph_style_5"><span style="line-height: 20px; " class="style_15">Archivos de datos para la tarea: </span><a title="MetNum_files/datos_tarea3.tgz" href="MetNum_files/datos_tarea3.tgz" style="line-height: 20px; " class="style_15">datos_tarea3.tgz</a><span style="line-height: 20px; " class="style_15"> (desempaquetar con tar- zxvf datos_tarea3.tgz)</span><span class="style_1"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 7px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_7.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_7">TAREA 2</span><span style="line-height: 22px; " class="style_4">: </span><a title="MetNum_files/Tarea_Interpolacion.pdf" href="MetNum_files/Tarea_Interpolacion.pdf" style="line-height: 22px; " class="style_4">Tarea_Interpolacion.pdf</a><span style="line-height: 22px; " class="style_4"> (para entregar el sábado 24/11/2012).<br /></span></p>
+                <p class="paragraph_style_5"><span style="line-height: 20px; " class="style_15">Archivos de datos para la tarea: </span><a title="MetNum_files/datos_tarea2.tgz" href="MetNum_files/datos_tarea2.tgz" style="line-height: 20px; " class="style_15">datos_tarea2.tgz</a><span style="line-height: 20px; " class="style_15"> (desempaquetar con tar- zxvf datos_tarea2.tgz)</span><span class="style_1"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 7px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_8.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_7">TAREA 1</span><span style="line-height: 22px; " class="style_4">: </span><a title="MetNum_files/Tarea1.pdf" href="MetNum_files/Tarea1.pdf" style="line-height: 22px; " class="style_4">Tarea1.pdf</a><span style="line-height: 22px; " class="style_4"> (para entregar el viernes 09/11/2012).<br /></span></p>
+                <p class="paragraph_style_5"><span style="line-height: 20px; " class="style_15">Archivos de datos para la tarea: </span><a title="MetNum_files/datos_tarea1.zip" href="MetNum_files/datos_tarea1.zip" style="line-height: 20px; " class="style_15">datos_tarea1.zip</a><span style="line-height: 20px; " class="style_15"> (se desempaquetan con unzip datos_tarea1.zip)<br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 8px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_9.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"></span><span style="line-height: 20px; " class="style_15"><br /></span></div>
+                <p class="paragraph_style_4"><span style="line-height: 22px; " class="style_4">GUÍA DE PYTHON: </span><span class="style_1"> </span><a title="MetNum_files/PyDataAnalysis.pdf" href="MetNum_files/PyDataAnalysis.pdf" class="style_1">PyDataAnalysis.pdf</a><span class="style_1"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 8px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_10.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"></span><span class="style_16"><br /></span></div>
+                <ol>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 16px; position: relative; top: 0px; " class="Bullet">•</span><span style="line-height: 22px; " class="style_7"> Clase teórica del 28 de enero (distribuciones de probabilidad):</span><span style="line-height: 22px; " class="style_17"> </span><a title="MetNum_files/distrib_probabilidad.zip" href="MetNum_files/distrib_probabilidad.zip" style="line-height: 22px; " class="style_8">distrib_probabilidad.zip</a><span style="line-height: 22px; " class="style_17"><br /></span></p>
+                  </li>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 16px; position: relative; top: 0px; " class="Bullet">•</span><span style="line-height: 22px; " class="style_17"> </span><span style="line-height: 22px; " class="style_7">Clase práctica del 25 de enero (Monte Carlo)</span><span class="style_18">:</span><span class="style_16"><br /></span></p>
+                  </li>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 14px; " class="Bullet">•</span> Programas en python que hicimos en clase: <a title="MetNum_files/transfmethod.zip" href="MetNum_files/transfmethod.zip">transfmethod.zip</a><span class="style_19">, </span><a title="MetNum_files/clasepract_random.zip" href="MetNum_files/clasepract_random.zip" class="style_20">clasepract_random.zip</a><span class="style_19"><br /></span></p>
+                  </li>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 14px; " class="Bullet">•</span><span class="style"> </span><span style="line-height: 22px; " class="style_7">Clase práctica del 18 de enero (FFT y convolución)</span><span class="style_18">:</span><br /></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_4">Programas en python que hicimos en clase: <a title="MetNum_files/clase_fft.py" href="MetNum_files/clase_fft.py" class="style_1">clase_fft.py</a><span style="line-height: 22px; " class="style_17">, </span><a title="MetNum_files/convol_simple.py" href="MetNum_files/convol_simple.py" style="line-height: 22px; " class="style_8">convol_simple.py</a><span style="line-height: 22px; " class="style_17"><br /></span></p>
+                <ol>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 16px; position: relative; top: 0px; " class="Bullet">•</span><span style="line-height: 22px; " class="style_17"> </span><span style="line-height: 22px; " class="style_7">Clase práctica del 11 de enero (ODEs)</span><span class="style_18">:</span><br /></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_4">Programas en python que hicimos en clase: <a title="MetNum_files/pendulo_clase.py" href="MetNum_files/pendulo_clase.py" class="style_1">pendulo_clase.py</a><span class="style_1">, </span><a title="MetNum_files/ej.py" href="MetNum_files/ej.py" class="style_1">ej.py</a><span class="style_1"><br /></span></p>
+                <ol>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 16px; position: relative; top: 0px; " class="Bullet">•</span><span style="line-height: 22px; " class="style_7"> Clase práctica del 23 de noviembre (integración)</span><span class="style_18">:</span><span class="style_21"><br /></span></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_4">Programas en python que hicimos en clase: <a title="MetNum_files/integracion_apie.py" href="MetNum_files/integracion_apie.py">integracion_apie.py</a><span class="style_16"><br /></span></p>
+                <ol>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 16px; position: relative; top: 0px; " class="Bullet">•</span><span style="line-height: 22px; " class="style_7"> Clase práctica del 16 de noviembre (interpolación)</span><span class="style_18">:</span><br /></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_4">Programas en python que hicimos en clase:<span class="style_22"> </span><a title="MetNum_files/interp_lineal.py" href="MetNum_files/interp_lineal.py" class="style_23">interp_lineal.py</a><span class="style_22">,  </span><a title="MetNum_files/interp_varios.py" href="MetNum_files/interp_varios.py" class="style_23">interp_varios.py</a><span class="style_1"><br /></span></p>
+                <ol>
+                  <li style="line-height: 19px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 14px; " class="Bullet">•</span><span class="style_1"> </span><span style="line-height: 22px; " class="style_7">Clase práctica del 10 de octubre</span><span class="style_18">:<br /></span></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_6"><span class="style_24">Datos:</span><span class="style_25"> </span><a title="MetNum_files/pop_5000Ma.dat.gz" href="MetNum_files/pop_5000Ma.dat.gz">pop_5000Ma.dat.gz</a><br /></p>
+                <p class="paragraph_style_6"><br /></p>
+                <p class="paragraph_style_4">Programa en python que hicimos en clase para graficar diagrama H-R: <br /></p>
+                <p class="paragraph_style_4"><a title="MetNum_files/programa.py" href="MetNum_files/programa.py">programa.py</a>  (<span class="style_1">nota: agregué algunas cosas más que no hicimos ayer en la clase)</span><br /></p>
+                <p class="paragraph_style_4">Este programa produce guarda como salida la siguiente figura con el nombre mifigura.png:<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4"><span class="style_1"><br /></span></p>
+                <p class="paragraph_style_4"><span class="style_1"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1"><br /></span></p>
+                <div class="paragraph paragraph_style_3"><span class="style_1"></span><div style="height: 8px; width: 684px;  height: 8px; left: 1px; position: relative; top: 1px; width: 684px; " class="tinyText inline-block"><div style="position: relative; width: 684px; "><img src="MetNum_files/shapeimage_11.png" alt="" style="height: 8px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 684px; " /></div></div><span class="tinyText"> </span><span class="style_1"><br /></span></div>
+                <p class="paragraph_style_4"><span class="style_1">Notas previas:<br /></span></p>
+                <p class="paragraph_style_4"> <span style="line-height: 18px; " class="style_26">Favor traer su laptop</span><span style="line-height: 18px; " class="style_27"> (los que tengan) y tener instalado Python (cualquier versión entre 2.6 y 2.7, no instalar python 3) y las siguientes librerías de python: numpy, scipy, matplotlib y pyfits.<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">Para chequear si tienen una determinada librería en un<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">terminal correr el comando:<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">python -c &quot;import numpy&quot;<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">Si corre sin dar mensajes es que SÍ tienen instalada la librería<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">en cuestión. Si no está instalada, aparecerá un mensaje como: <br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">    File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">    ImportError: No module named numpy<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">Opciones de instalación:<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">Para instalar las librerías de python pueden usar alguna de las siguientes<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">opciones:<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">- Bajar e instalar la distribucion Enthought Python (ya contiene python, numpy, scipy y matplotlib). Pyfits<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">  se baja independientemente (busquenla en google).<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">-En un terminal hacer:  <br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">    sudo apt-get install python  (para instalar python)<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">    sudo apt-get install python-numpy (para instalar numpy por ejemplo)<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">- Si ya tienen python, pueden correr en un terminal:<br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27"><br /></span></p>
+                <p class="paragraph_style_6"><span style="line-height: 15px; " class="style_27">     easy_install numpy <br /></span></p>
+                <p class="paragraph_style_6"><br /></p>
+                <p class="paragraph_style_6"><a title="MetNum_files/pop_5000Ma.dat_1.gz" href="MetNum_files/pop_5000Ma.dat_1.gz"><br /></a></p>
+                <p class="paragraph_style_6"><a title="MetNum_files/pop_5000Ma.dat_2.gz" href="MetNum_files/pop_5000Ma.dat_2.gz"><br /></a></p>
+                <p class="paragraph_style_6"><a title="MetNum_files/pop_5000Ma.dat_3.gz" href="MetNum_files/pop_5000Ma.dat_3.gz"><br /></a></p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 175px; width: 300px;  height: 175px; left: 200px; position: absolute; top: 1341px; width: 300px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0 shadow_0">
+            <img src="MetNum_files/mifigura.jpg" alt="" style="border: none; height: 175px; width: 300px; " />
+          </div>
+          <div style="height: 2093px; line-height: 2093px; " class="spacer"> </div>
+        </div>
+        <div style="height: 100px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
