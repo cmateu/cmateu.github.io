@@ -23,9 +23,6 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_External_274_187 {
-    position: relative;
-}
 .style_1 {
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 16px;
@@ -90,6 +87,9 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_External_274_205 {
+    position: relative;
+}
 .style_SkipStroke {
     background: transparent;
     opacity: 1.00;
@@ -123,7 +123,7 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_274_187 {
+.Normal_External_274_205 {
     position: relative;
 }
 .Title {
