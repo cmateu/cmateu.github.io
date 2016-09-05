@@ -165,19 +165,18 @@
     position: relative;
 }
 a {
-    color: rgb(66, 66, 66);
+    color: rgb(0, 84, 147);
     text-decoration: underline;
 }
 a:visited {
-    color: rgb(0, 84, 147);
+    color: rgb(0, 145, 147);
     text-decoration: underline;
 }
 a.class1 {
-    color: rgb(1, 25, 147);
+    color: rgb(0, 84, 147);
 }
 a.class1:visited {
-    color: rgb(0, 84, 147);
-    text-decoration: underline;
+    color: rgb(0, 145, 147);
 }
 a.class1:hover {
     color: rgb(255, 147, 0);
@@ -187,7 +186,7 @@ a.class2 {
     color: rgb(66, 66, 66);
 }
 a.class2:visited {
-    color: rgb(0, 84, 147);
+    color: rgb(0, 145, 147);
     text-decoration: underline;
 }
 a.class2:hover {
@@ -229,11 +228,11 @@ a:hover {
     text-decoration: underline;
 }
 #widget0 a:visited {
-    color: rgb(0, 84, 147);
+    color: rgb(0, 145, 147);
     text-decoration: underline;
 }
 #widget0 a {
-    color: rgb(66, 66, 66);
+    color: rgb(0, 84, 147);
     text-decoration: underline;
 }
 .spacer {

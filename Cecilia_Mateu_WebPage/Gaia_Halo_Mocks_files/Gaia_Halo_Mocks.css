@@ -236,15 +236,24 @@
     position: relative;
 }
 a {
-    color: rgb(1, 25, 147);
+    color: rgb(0, 84, 147);
     text-decoration: underline;
 }
 a:visited {
-    color: rgb(83, 27, 147);
+    color: rgb(0, 145, 147);
     text-decoration: underline;
 }
+a.class1 {
+    color: rgb(0, 84, 147);
+}
+a.class1:visited {
+    color: rgb(0, 145, 147);
+}
+a.class1:hover {
+    color: rgb(255, 147, 0);
+}
 a:hover {
-    color: rgb(255, 38, 0);
+    color: rgb(255, 147, 0);
     text-decoration: underline;
 }
 ol  { 
@@ -268,15 +277,15 @@ ol  {
     line-height: 1px;
 }
 #widget0 a:hover {
-    color: rgb(255, 38, 0);
+    color: rgb(255, 147, 0);
     text-decoration: underline;
 }
 #widget0 a:visited {
-    color: rgb(83, 27, 147);
+    color: rgb(0, 145, 147);
     text-decoration: underline;
 }
 #widget0 a {
-    color: rgb(1, 25, 147);
+    color: rgb(0, 84, 147);
     text-decoration: underline;
 }
 .spacer {
