@@ -96,6 +96,28 @@
     text-indent: 0px;
     text-transform: none;
 }
+.paragraph_style_4 {
+    color: rgb(94, 94, 94);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 11px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
 .style_2 {
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -103,28 +125,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 19px;
-}
-.paragraph_style_4 {
-    color: rgb(94, 94, 94);
-    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
-    font-size: 15px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
 }
 .paragraph_style_5 {
     color: rgb(94, 94, 94);
@@ -148,37 +148,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_3 {
-    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
-    font-size: 14px;
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-}
 .paragraph_style_6 {
-    color: rgb(94, 94, 94);
-    font-family: 'ArialMT', 'Arial', sans-serif;
-    font-size: 14px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 19px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 11px;
-    padding-top: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
-}
-.paragraph_style_7 {
     color: rgb(0, 144, 81);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -200,7 +170,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_4 {
+.style_3 {
     color: rgb(94, 94, 94);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -210,7 +180,7 @@
     line-height: 19px;
     opacity: 1.00;
 }
-.paragraph_style_8 {
+.paragraph_style_7 {
     color: rgb(94, 94, 94);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 20px;
@@ -232,7 +202,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.paragraph_style_9 {
+.paragraph_style_8 {
     color: rgb(94, 94, 94);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 19px;
@@ -254,7 +224,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.paragraph_style_10 {
+.paragraph_style_9 {
     color: rgb(148, 17, 0);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 17px;
@@ -276,7 +246,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_5 {
+.style_4 {
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 16px;
     font-stretch: normal;
@@ -284,7 +254,7 @@
     font-weight: 700;
     line-height: 21px;
 }
-.paragraph_style_11 {
+.paragraph_style_10 {
     color: rgb(94, 94, 94);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 17px;
@@ -306,7 +276,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.paragraph_style_12 {
+.paragraph_style_11 {
     color: rgb(1, 25, 147);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -328,7 +298,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.paragraph_style_13 {
+.paragraph_style_12 {
     color: rgb(66, 66, 66);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -350,6 +320,16 @@
     text-indent: 0px;
     text-transform: none;
 }
+.style_5 {
+    color: rgb(0, 143, 0);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    opacity: 1.00;
+}
 .style_SkipStroke {
     background: transparent;
     opacity: 1.00;
@@ -366,17 +346,7 @@
     margin: 0px;
     opacity: 1.00;
 }
-.style_6 {
-    color: rgb(0, 143, 0);
-    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
-    font-size: 14px;
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    opacity: 1.00;
-}
-.paragraph_style_14 {
+.paragraph_style_13 {
     color: rgb(66, 66, 66);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -398,7 +368,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.paragraph_style_15 {
+.paragraph_style_14 {
     color: rgb(94, 94, 94);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -420,7 +390,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_7 {
+.style_6 {
     font-family: 'Arial-ItalicMT', 'Arial', sans-serif;
     font-size: 14px;
     font-stretch: normal;
@@ -428,7 +398,7 @@
     font-weight: 400;
     line-height: 19px;
 }
-.paragraph_style_16 {
+.paragraph_style_15 {
     color: rgb(169, 169, 169);
     font-family: 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
     font-size: 14px;
@@ -450,7 +420,7 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_8 {
+.style_7 {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 12px;
     font-stretch: normal;
@@ -458,7 +428,7 @@
     font-weight: 400;
     line-height: 14px;
 }
-.style_9 {
+.style_8 {
     color: rgb(169, 169, 169);
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 12px;
@@ -535,7 +505,7 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
-.graphic_textbox_layout_style_default_External_654_4149 {
+.graphic_textbox_layout_style_default_External_654_4082 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
