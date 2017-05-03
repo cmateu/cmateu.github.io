@@ -94,6 +94,9 @@
     line-height: 18px;
     opacity: 1.00;
 }
+.style_External_690_800 {
+    position: relative;
+}
 .paragraph_style_4 {
     color: rgb(50, 51, 51);
     font-family: 'LucidaGrande', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
@@ -168,9 +171,6 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_External_690_818 {
-    position: relative;
-}
 .Free_Form {
     color: rgb(169, 169, 169);
     font-family: 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
@@ -196,7 +196,7 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_690_818 {
+.Normal_External_690_800 {
     position: relative;
 }
 .Title {
