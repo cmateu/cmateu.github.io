@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:C3326351-11C8-4D24-9B57-DB116B71CD0F</id>
  <title>Page list Atom feed</title>
- <updated>2017-05-25T13:24:53-04:00</updated>
+ <updated>2017-05-25T13:31:29-04:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">Home</title>
   <in-navbar xmlns="urn:iweb:">579CC10F-66D8-40C4-A80B-66EAAF7F887F</in-navbar>
   <link rel="alternate" href="Home.html"/>
-  <updated>2017-05-25T13:24:53.001-04:00</updated>
+  <updated>2017-05-25T13:31:29.001-04:00</updated>
   <content>Home</content>
  </entry>
  <entry>
@@ -23,7 +23,7 @@
   <title xmlns="urn:iweb:">About Me</title>
   <in-navbar xmlns="urn:iweb:">FC191991-3A06-4687-8DCE-83217EC47FB8</in-navbar>
   <link rel="alternate" href="About_Me.html"/>
-  <updated>2017-05-25T13:24:53.002-04:00</updated>
+  <updated>2017-05-25T13:31:29.002-04:00</updated>
   <content>About Me</content>
  </entry>
  <entry>
@@ -32,7 +32,7 @@
   <title xmlns="urn:iweb:">PyMGC3</title>
   <in-navbar xmlns="urn:iweb:">284E54E0-5C95-4460-9BC1-4881573C16FA</in-navbar>
   <link rel="alternate" href="PyMGC3.html"/>
-  <updated>2017-05-25T13:24:53.003-04:00</updated>
+  <updated>2017-05-25T13:31:29.003-04:00</updated>
   <content>PyMGC3</content>
  </entry>
  <entry>
@@ -41,7 +41,7 @@
   <title xmlns="urn:iweb:">Gaia Halo Mocks</title>
   <in-navbar xmlns="urn:iweb:">4EF7FB90-05DC-4515-A7BD-ABA94B1CA8F8</in-navbar>
   <link rel="alternate" href="Gaia_Halo_Mocks.html"/>
-  <updated>2017-05-25T13:24:53.004-04:00</updated>
+  <updated>2017-05-25T13:31:29.004-04:00</updated>
   <content>Gaia Halo Mocks</content>
  </entry>
  <entry>
@@ -50,7 +50,7 @@
   <title xmlns="urn:iweb:">Publications</title>
   <in-navbar xmlns="urn:iweb:">722F666D-5C7A-4371-BFB1-F87D162B09A3</in-navbar>
   <link rel="alternate" href="Publications.html"/>
-  <updated>2017-05-25T13:24:53.005-04:00</updated>
+  <updated>2017-05-25T13:31:29.005-04:00</updated>
   <content>Publications</content>
  </entry>
  <entry>
@@ -59,7 +59,7 @@
   <title xmlns="urn:iweb:">OVCIDA2</title>
   <in-navbar xmlns="urn:iweb:">9FC42252-0E4E-4644-B444-D7D1CA70F140</in-navbar>
   <link rel="alternate" href="OVCIDA2.html"/>
-  <updated>2017-05-25T13:24:53.006-04:00</updated>
+  <updated>2017-05-25T13:31:29.006-04:00</updated>
   <content>OVCIDA2</content>
  </entry>
  <entry>
@@ -68,7 +68,7 @@
   <title xmlns="urn:iweb:">PUA</title>
   <in-navbar xmlns="urn:iweb:">66035C7C-77C5-41D6-96DE-7C2E9207070C</in-navbar>
   <link rel="alternate" href="PUA.html"/>
-  <updated>2017-05-25T13:24:53.007-04:00</updated>
+  <updated>2017-05-25T13:31:29.007-04:00</updated>
   <content>PUA</content>
  </entry>
 </feed>
