@@ -61,6 +61,9 @@
     font-weight: 400;
     line-height: 18px;
 }
+.style_External_274_223 {
+    position: relative;
+}
 .paragraph_style_2 {
     color: rgb(0, 0, 0);
     font-family: 'ArialMT', 'Arial', sans-serif;
@@ -86,9 +89,6 @@
 .style_SkipStroke_2 {
     background: transparent;
     opacity: 1.00;
-}
-.style_External_274_205 {
-    position: relative;
 }
 .style_SkipStroke {
     background: transparent;
@@ -123,7 +123,7 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_274_205 {
+.Normal_External_274_223 {
     position: relative;
 }
 .Title {
